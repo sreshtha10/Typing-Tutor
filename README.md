@@ -2,7 +2,7 @@
 Typing is the basic command to run a computer and your typing speed plays vital role while working in computer to save time.
 Here I have presented a Typing Tutor to measure user’s typing speed and to enhance their typing speed.
 
-It will be a simple command line program.program
+It will be a simple command line program.
 Features:
 
 Calculate the accuracy of the user.
