@@ -113,7 +113,7 @@ int begin ()
 
     /*Start*/
 
-    printf(" \t \t \t Press ENTER to Start \n");
+    printf("Press ENTER to Start \n");
     /* LOAD MAIN TYPING PROTOCOL */
 
 
@@ -121,7 +121,7 @@ int begin ()
 
     /* exit */
     printf(" \n \n \n");
-    printf(" \t \t \t Press ESC to exit");
+    printf("EXIT (Press ESC)");
     int esc;
     esc = getch();
     if (esc == 27 ){
@@ -143,13 +143,30 @@ int about(){
     printf("Typing is the basic command to run a computer and your typing speed plays vital role while working in computer to save \n time. Here we have presented a Typing Tutor to measure users typing speed and to enhance their typing speed.  \n \n \n");
     printf("Many people face problems because of slow typing speed and low accuracy. Slow typing results in a lot of time wastage. Using C programming language we are going to make a program that solves this problem. \n Typing tutor will help people to increase the speed and accuracy while typing.");
     printf("\n \n \n \n");
-    printf(" \t \t Follow me on github: (Press 1) \n");
+    printf("View code at github (Press 1) \n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("EXIT (Press ESC)");
     char opt;
     opt = getch();
     if (opt == '1')
     {
-            system("start https://github.com/sreshthamehrotra00");
+            system("start https://github.com/sreshthamehrotra00/Typing-Tutor");
     }
+    int esc;
+    esc = getch();
+    if (esc == 27 ){
+        exit(0);
+    }
+
 
 
 }
@@ -160,7 +177,7 @@ int about(){
 /* MENU */ 
 int menu(){
     /* Header */
-    system("color 07");
+    system("color 0E");
     printf("\t \t \t \t ,--.   ,--.,------.,--.  ,--.,--. ,--.\n");
     printf("\t \t \t \t |   `.'   ||  .---'|  ,'.|  ||  | |  |\n");
     printf("\t \t \t \t |  |'.'|  ||  `--, |  |' '  ||  | |  |\n");
